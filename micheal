@@ -5,9 +5,30 @@ git commit -m "micheal created main"
 git remote add origin git@github.com:Micheal-adel98/lab2.git
 git branch -M main
 git push main
+git branch dev
+git branch test
+git branch checkout main
+git merge dev
 
 
 --------- tags -----------------
 git tag -a v1.4. -m "v1.4. tag created"
 
 git pusg origin v1.4.
+
+__________Delete remote branch____________
+
+git push origin :dev
+
+__________Delete local brach______
+
+git branch -D dev
+
+__________Delete tag local_______
+
+git tag -d v1.4
+
+___________Delete tag remote________
+
+git push origin :refs/tags/v1.4
+
