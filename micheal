@@ -1,0 +1,7 @@
+mkdir lab2
+touch micheal
+git add .
+git commit -m "micheal created main"
+git remote add origin git@github.com:Micheal-adel98/lab2.git
+git branch -M main
+git push main
