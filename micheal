@@ -5,3 +5,9 @@ git commit -m "micheal created main"
 git remote add origin git@github.com:Micheal-adel98/lab2.git
 git branch -M main
 git push main
+
+
+--------- tags -----------------
+git tag -a v1.4. -m "v1.4. tag created"
+
+git pusg origin v1.4.
